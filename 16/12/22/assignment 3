@@ -1,0 +1,19 @@
+str=input("Enter a string:")
+m=len(str)
+for i in range(0,m):
+    if str[i].isdigit()==1:
+        print(str[i],"is a digit")
+    else:
+        print(str[i],"is not a digit")
+
+OUTPUT:
+
+Enter a string:Nihith31
+N is not a digit
+i is not a digit
+h is not a digit
+i is not a digit
+t is not a digit
+h is not a digit
+3 is a digit
+1 is a digit
